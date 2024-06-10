@@ -19,13 +19,13 @@ This project is a solution to a coding challenge that involves finding words fro
 ## Project Structure
 
 weekend-health-take-home
-├── README.md
-└── src
-    ├── __init__.py
-    ├── main.py
-└── tests
-    ├── __init__.py
-    ├── test_main.py
+├── src
+│   └── __init__.py
+│   └── main.py
+├── tests
+│   └── __init__.py
+│   └── test_main.py
+└── README.md
 
 - `main.py`: Contains the implementation of the `find_words` function.
 - `test_main.py`: Contains unit tests for the `find_words`, `can_form_word`, `build_frequency_map` function.
@@ -40,5 +40,6 @@ weekend-health-take-home
     ```
 
 2. **Run the tests**:
-    ```python3 tests/test_main.py
+    ```
+    python3 tests/test_main.py
     ```
